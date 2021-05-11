@@ -22,3 +22,12 @@ enc = iga.rankAndEncrypt(plainip)
 print("Encrypted IP: "+enc)
 dec = iga.decryptAndDerank(enc)
 print("Decrypted IP: "+dec)
+
+#Will output this:
+#Plaintext IP: 193.0.2.255
+#Encrypted IP: 44.7.36.87
+#Decrypted IP: 193.0.2.255
+#
+#Plaintext IP: 8.8.8.8
+#Encrypted IP: 138.89.123.214
+#Decrypted IP: 8.8.8.8
